@@ -1,0 +1,77 @@
+header {
+  background-color: gray;
+  box-shadow: 1px 1px 10px 0.3px red;
+  margin-bottom: 50px;
+}
+
+.site_logo {
+ display: flex;
+ align-items: center;
+ color: #fff;
+ font-size: 24px;
+ font-weight: 600;
+}
+.header__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  width: 1140px;
+}
+.header__title {
+  display: flex;
+  align-items: center;
+  & li {
+    margin: 0 16px;
+  }
+  .header__link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 12px 16px;
+    opacity: 0.8;
+    &:hover{
+      color: yellow;
+    }
+  }
+}
+
+.header__right {
+  display: flex;
+  & input {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline-color:  rgb(237, 126, 47);
+    color: rgb(237, 126, 47);
+  }
+  & input::placeholder {
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    opacity: 0.5;
+  }
+  & button {
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 12px;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(157, 145, 145);
+    cursor: pointer;
+    &:hover {
+      color: rgb(237, 126, 47);
+    }
+  }
+  .signin_btn{
+    background-color: whitesmoke;
+  }
+}
+// .bgimage{
+//   background-image: url("../../../public/48e692185290e45ed2458191094aa87a.jpg");
+//   background-repeat: no-repeat;
+//   width:"100vw";
+//   height:"80vh";
+//   background-position: center;
+// }
