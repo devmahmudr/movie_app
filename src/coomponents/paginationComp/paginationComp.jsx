@@ -14,6 +14,7 @@ const PaginationComp = ({ page, setPage, totalPage }) => {
         disabled={page === 1}
         onClick={() => {
           setPage(page - 1);
+          goToTop();
         }}
         className={`${page == 1 ? "disabled" : ""}`}
       >pervius</button>
